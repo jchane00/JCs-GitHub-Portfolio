@@ -1,0 +1,362 @@
+:root {
+    --primary-color: black;
+    --secondary-color: #021776;
+    --tertiary-color: gray
+    ;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+  }
+  
+  
+  /* HEADER / NAV BAR STYLES START */
+  
+  
+  header {
+    padding: 20px 30px 35px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 44px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 100%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 38px;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(97, 32, 32, 0);
+  }
+  
+  header a {
+    text-decoration: none;
+    color: var(--primary-color);
+  }
+  
+  header nav {
+    margin: 7px 0;
+  }
+  
+  header nav ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 1.5em;    
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+    
+  }
+  
+  header nav ul li a:hover {
+    background: yellow;
+    color: var(--primary-color);
+    border-radius: 50px;
+    text-shadow: none;
+  }
+  
+  /* HEADER / NAVBAR STYLES END */
+
+   
+  h2.intro{
+      text-align: center;
+      color: beige;
+      margin-bottom: 30px;
+
+    }
+
+ .container{
+margin-top: 50px;
+ }
+  
+.firstline{
+
+    color: beige;
+    font-weight: bold;
+    font-size: larger ;
+    margin-bottom: 30px;
+    padding: 35px;
+}
+
+hr{
+  height: 10px;  
+  color: beige;
+  border: 2px dashed ;
+}
+
+ .design:hover {
+    cursor: pointer;
+    transition: all 2s linear;
+    transform: rotateY(360deg);
+
+ }
+
+  /* FOOTER STYLES START */
+
+  .footer-1{
+
+    color:black;
+  }
+
+  footer {
+    background: var(--tertiary-color);
+    padding: 40px 40px 25px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+   
+  }
+  
+  video{
+    height: 100vh;
+    width: 100vw ;
+  }
+  
+  footer div {
+    line-height: 1.5;
+    text-align: right;
+    
+  }
+  
+  footer a {
+    color: var(--secondary-color);
+  }
+  /* END FOOTER STYLES */
+  
+  /* STYLE ALL SECTION TAGS */
+  section {
+    padding: 60px;
+  }
+  
+  
+  /* SECTION TITLE STYLES START */
+  .section-title {
+    font-size: 48px;
+    border-bottom: 3px solid;
+    color: beige;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+  }
+  
+  .primary-border {
+    border-color: var(--primary-color);
+  }
+  
+  .secondary-border {
+    border-color: var(--primary-color);
+  }
+  /* SECTION TITLE STYLES END */
+  
+  /* MY DESIGNS STYLES */
+  .img-style{
+    display: flex;
+   justify-content: space-evenly;
+       
+  }
+
+  .design-1{
+    border: 5px gray;
+    border-style: ridge;
+  }
+
+  .design-2{
+    border: 5px gray;
+    border-style: ridge;
+  }
+  .intro p {
+    display: inline-block;
+    line-height: normal;
+    color: var(--primary-color);
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  /* MY DESIGNS */
+  
+  .intro{
+background-color: black;
+  }
+  /* ABOUT ME STYLES START */
+  .steps { 
+   background: var(--secondary-color);
+      }
+  
+  .flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background: var(--tertiary-color);
+    align-items: center;    
+    border: 2px solid black;
+
+  }
+
+  .flex-container{
+    color:black;
+    font-weight: bold;
+    font-size:large;
+      }
+
+.flex-container-2{
+  display: inline-flex;
+  justify-content: space-between;
+  
+  
+}
+  .flex-1 {
+    width: 250px;
+    height: 250px;
+    break-after: left;
+    border: 3px solid black;
+  }
+  
+  .flex-2{
+    margin: auto;
+    padding-left: 10px;
+  }
+  /* ABOUT ME STYLES END */
+  
+  /* CONTACT ME STYLES START */
+  .reach-out {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .contact {
+    background: var(--secondary-color);
+  }
+  
+  .contact h2 {
+    color: var(--primary-color);
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .contact-form{
+    width: 35%;
+    margin: auto;
+    background-color: beige;
+
+  }
+  
+    .contact-form input, .contact-form textarea {
+    border: 3px solid var(--primary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255, 0.75);
+  }
+  
+  .contact-form button {
+    width: 100%;
+    border: 3px solid black;
+    background-color:yellowgreen;
+    color: var(--primary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+  
+  .contact-form button:hover {
+    color: var(--primary-color);
+    background: var(--tertiary-color);
+  }
+  
+
+  /* CONTACT STYLES END */
+  
+  
+  /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+  @media screen and (max-width: 980px) {
+    header {
+      padding-bottom: 0;
+      justify-content: center;
+      position: relative;
+    }
+  
+    header h1 {
+      width: 100%;
+      text-align: center;
+    }
+  
+    header nav ul {
+      margin-top: 20px;
+      width: 100%;
+      justify-content: center;
+    }
+  
+    header nav ul li a {
+      font-size: 20px;
+    }
+  
+    footer h2, footer div {
+      text-align: center;
+      width: 100%;
+    }
+  
+  
+    .section-title {
+      width: 80%;
+    }}
+    
+    /* MEDIA QUERY FOR TABLETS AND SMALLER */
+  @media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+  }
+     
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+
+    .section-title {
+      width: 95%;
+    }
+  
+    .intro p {
+      width: 100%;
+    }
+  
+  
+  };
